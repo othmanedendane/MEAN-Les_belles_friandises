@@ -1,0 +1,69 @@
+#add
+{
+   background-color: red;
+}
+body{
+  background-color :darkslategray;
+}
+#ecriture
+{
+  color:white;
+}
+#ter{
+  display: block;
+  margin: 20px auto;
+  padding: 15px;
+  border: 0;
+  border: 1px solid red;
+  width: 10%;
+}
+#testo{
+
+  border-color: gray;
+  height: 3cm;
+
+
+}
+#lbl1
+{
+  width:3cm;
+  border:solid 0.4px;
+  background-color: honeydew;
+  text-align: center;
+}
+select{
+  width:9.3cm;
+  height:1.05cm;
+}
+#dovo{
+  border: solid 20px blanchedalmond;
+  background-color: blanchedalmond;
+  margin-bottom: 15px;
+
+}
+#trash
+{
+  color:red;
+  float:right;
+  margin-right: 25px;
+  position: relative;
+
+
+}
+#li1
+{
+  list-style-type: none;
+}
+#mm
+{
+  width: 75%;
+  color:white;
+}
+#trash{
+  background-color: blanchedalmond;
+  border-color: blanchedalmond;
+
+}
+
+
+

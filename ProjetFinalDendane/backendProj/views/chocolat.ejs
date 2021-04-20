@@ -1,0 +1,21 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title><%= pageTitle %></title>
+        <link rel="stylesheet" type="text/html" href="../public/style.css">
+    </head>
+    <body>
+        <%-include("./partials/menu")%>
+        <div>
+            <ul>
+                    <% for (c of choco)
+                        {%>
+                        <li><%= c.brand %> </li>
+
+                        <% } %>
+            </ul>
+            </div>
+            <%-include("./partials/footer")%>
+    </body>
+</html>

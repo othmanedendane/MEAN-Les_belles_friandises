@@ -1,0 +1,27 @@
+<br>
+  <li *ngFor="let friandise of FriandisesList$ | async;">
+    <div class="card-group">
+    <div id = "div1" class="card border-secondary mb-3" style="max-width: 18rem;">
+      <div class="card-header" style="color: black;">{{friandise.marque}}</div>
+      <div class="card-body text-secondary">
+        <span class="card-title"[ngStyle]="{color:getSoldValue(friandise)}">
+          <span *ngIf="friandise.categorie =='chips'"> Essayez ces croustilles délicieuses de :</span>
+          <span *ngIf="friandise.categorie=='Barres chocolatées'"> Essayez cette friandise chocolatée de : </span>
+        </span>
+        <!--<h5 class="card-title">{{friandise.categorie}}</h5>-->
+        <p class="card-text">{{friandise.cie}}</p>
+        <p class="card-text">Prix: {{friandise.prix}} $</p>
+      </div>
+    </div>
+  </div>
+    <br>
+  </li>
+
+
+
+
+
+
+
+
+
